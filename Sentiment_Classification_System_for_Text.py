@@ -7,8 +7,8 @@ import numpy as np
 import re
 import time
 import nltk
-import tkinter as tk # 💡 NEW: Import the GUI library
-from tkinter import messagebox, simpledialog # 💡 NEW: Import dialog functions
+import tkinter as tk  د
+from tkinter import messagebox, simpledialog
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -225,7 +225,6 @@ def tune_best_model(model_object, model_name, X_train_vec, y_train, X_test_vec, 
 
 if __name__ == "__main__":
     
-    # 💡 NEW: Initialize the tkinter root and hide it
     root = tk.Tk()
     root.withdraw() 
     
@@ -318,4 +317,5 @@ if user_input:
     
     # The original print statements remain for the terminal log
     print(f"\n⬅️ Input Text: '{user_input}'")
+
     print(f"➡️ **Predicted Sentiment: {predicted_sentiment}**")
