@@ -7,7 +7,7 @@ import numpy as np
 import re
 import time
 import nltk
-import tkinter as tk  د
+import tkinter as tk 
 from tkinter import messagebox, simpledialog
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -319,3 +319,4 @@ if user_input:
     print(f"\n⬅️ Input Text: '{user_input}'")
 
     print(f"➡️ **Predicted Sentiment: {predicted_sentiment}**")
+
